@@ -33,14 +33,12 @@ body {
 }
 .card {
   background: white;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 .card-body {
   padding: 30px;
 }
-.card-footer {
-  padding: 0 30px 30px;
-}
+
 .btn {
   display: block;
   color: white;
@@ -192,6 +190,9 @@ footer a {
 .love {
   margin-bottom: 40px;
 }
+.smallertop {
+  margin-top: 5px;
+}
 
 @media (max-width: 900px) {
   header {
@@ -212,5 +213,16 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  .card {
+    margin: 0 auto;
+  }
+  .admins {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .paragraph {
+    margin-left: 40px;
   }
 }
