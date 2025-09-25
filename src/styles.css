@@ -225,4 +225,8 @@ footer a {
   .paragraph {
     margin-left: 40px;
   }
+  .content {
+    padding: 0 auto;
+    margin: 0 auto;
+  }
 }
