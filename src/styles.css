@@ -7,12 +7,16 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
+.text-center {
+  text-align: center;
+}
 .grid {
   display: grid;
   grid-gap: 64px;
 }
 .img-responsive {
   max-width: 100%;
+  display: block;
 }
 .grid-2-column {
   grid-template-columns: 1fr 1fr;
@@ -20,15 +24,45 @@ body {
 .grid-3-column {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.grid-admins {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 .paragraph {
   position: relative;
   left: -30px;
 }
-section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 100px 0;
+.card {
+  background: white;
+  margin: 30px 0;
 }
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  padding: 0 30px 30px;
+}
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
+}
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+section.secondary {
+  background: #f8f8f8;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/chattalatin-logo1.png");
@@ -80,11 +114,11 @@ main h2 {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
+  margin: 0;
   letter-spacing: 5px;
   color: #272044;
   opacity: 0.3;
   text-transform: uppercase;
-  margin: 0;
 }
 main h3 {
   font-weight: 700;
@@ -93,10 +127,24 @@ main h3 {
   color: #272044;
   margin: 0;
 }
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
 main p {
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
   color: #272044;
   opacity: 0.7;
@@ -134,10 +182,10 @@ footer a {
   color: white;
   opacity: 0.7;
 }
+
 @media (max-width: 900px) {
   header {
     padding: 60px 0;
-    max-width: 900px;
   }
   header h1 {
     font-size: 48px;
