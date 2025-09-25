@@ -15,7 +15,7 @@ body {
   grid-gap: 64px;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 .grid-2-column {
@@ -54,6 +54,7 @@ body {
   background-color: #462cb3;
   text-decoration: none;
 }
+
 .content {
   background: white;
   margin: 60px;
@@ -187,6 +188,9 @@ footer li {
 footer a {
   color: white;
   opacity: 0.7;
+}
+.love {
+  margin-bottom: 40px;
 }
 
 @media (max-width: 900px) {
