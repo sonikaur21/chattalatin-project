@@ -3,26 +3,67 @@ body {
   background: #272044;
 }
 
+nav {
+  padding: 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: rgb(62, 140, 192);
+}
+.navbar {
+  position: fixed;
+  top: 0; /* stick to the top */
+  left: 0;
+  width: 100%; /* span the whole screen */
+  background: #272044;
+  color: white;
+  z-index: 1000; /* make sure it stays above other elements */
+}
 .container {
   max-width: 1400px;
-  margin: 0 auto;
+  margin: 80px 0 auto;
 }
 .text-center {
   text-align: center;
 }
 .grid {
   display: grid;
-  grid-gap: 64px;
+  grid-gap: 20px;
+  justify-items: center; /* center images inside cells */
+  max-width: 1600px;
+  margin: 0 auto;
 }
 .img-responsive {
   width: 100%;
   display: block;
 }
+.grid img {
+  width: 100%;
+  max-width: 450px; /* don’t let them stretch too much */
+  height: auto;
+  border-radius: 8px; /* optional */
+}
 .grid-2-column {
   grid-template-columns: 1fr 1fr;
 }
 .grid-3-column {
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
 }
 .grid-admins {
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -196,7 +237,13 @@ footer a {
 .smallertop {
   margin-top: 5px;
 }
-
+.calendar-photo {
+  width: 700px;
+  max-width: 100%; /* responsive: won’t overflow on smaller screens */
+  height: auto; /* keeps aspect ratio */
+  display: block; /* optional, helps with centering */
+  margin: 0 auto; /* optional, centers the image */
+}
 @media (max-width: 900px) {
   header {
     padding: 60px 0;
@@ -232,5 +279,17 @@ footer a {
   .content {
     padding: 0 auto;
     margin: 0 auto;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #272044;
+    gap: 10px;
+  }
+  nav li {
+    display: block;
+    margin: 10px 0;
   }
 }
