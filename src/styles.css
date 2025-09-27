@@ -306,6 +306,7 @@ footer .grid div {
     align-items: center;
     background: #272044;
     gap: 10px;
+    margin: 0 15px;
   }
   nav li {
     display: block;
