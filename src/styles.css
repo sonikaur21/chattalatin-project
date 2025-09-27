@@ -43,6 +43,9 @@ nav li.active a {
 .text-center {
   text-align: center;
 }
+.container h1.text-left {
+  text-align: left;
+}
 .grid {
   display: grid;
   grid-gap: 20px;
