@@ -299,6 +299,10 @@ footer .grid div {
     padding: 0 auto;
     margin: 0 auto;
   }
+  .greetmeet img {
+    max-width: 100%;
+    height: auto;
+  }
 
   nav ul {
     display: flex;
