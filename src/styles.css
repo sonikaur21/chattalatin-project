@@ -77,7 +77,7 @@ nav li.active a {
 }
 .paragraph {
   position: relative;
-  left: -30px;
+  left: 30px;
 }
 .admins {
   margin-top: 25px;
@@ -121,12 +121,12 @@ section.secondary {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/chattalatin-logo1.png");
+    url("../images/Official_logo.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 200px 0;
+  padding: 300px 0;
 }
 
 header h1 {
@@ -141,13 +141,7 @@ header h2 {
   line-height: 1.5;
   margin: 0;
 }
-header h3 {
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 1.5;
-  letter-spacing: 5px;
-  margin: 0;
-}
+
 header a {
   font-weight: 700;
   font-size: 14px;
@@ -211,7 +205,7 @@ footer {
       rgba(39, 32, 68, 0.6),
       rgba(39, 32, 68, 0.6)
     ),
-    url("../images/chattalatin-logo1.png");
+    url("../images/Official_logo.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
