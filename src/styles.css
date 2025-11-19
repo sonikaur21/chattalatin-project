@@ -53,6 +53,7 @@ nav li.active a {
   grid-gap: 20px;
   justify-items: center; /* center images inside cells */
   max-width: 1600px;
+  grid-template-columns: 2fr;
   margin: 0 auto;
 }
 .img-responsive {
