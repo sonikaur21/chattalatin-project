@@ -289,7 +289,10 @@ footer .grid div {
     margin-top: 10px;
   }
   .paragraph .card {
-    text-align: right;
+    text-align: center;
+  }
+  .paragraph {
+    left: 0;
   }
   .content {
     padding: 0 auto;
