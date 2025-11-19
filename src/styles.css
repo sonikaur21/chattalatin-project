@@ -202,13 +202,9 @@ main p {
 footer {
   color: white;
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.6),
-      rgba(39, 32, 68, 0.6)
-    ),
-    url("../images/Official_logo.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    rgba(39, 32, 68, 0.6),
+    rgba(39, 32, 68, 0.6)
+  );
 }
 footer h3 {
   font-weight: 700;
@@ -285,10 +281,7 @@ footer .grid div {
   .hide-on-mobile {
     display: none;
   }
-  footer {
-    display: block;
-    margin: 0 auto;
-  }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
