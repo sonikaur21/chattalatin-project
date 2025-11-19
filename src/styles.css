@@ -73,7 +73,7 @@ nav li.active a {
   justify-items: center;
 }
 .grid-admins {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .paragraph {
   position: relative;
