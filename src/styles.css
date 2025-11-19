@@ -285,11 +285,6 @@ footer .grid div {
     display: none;
   }
 
-  @media (min-width: 992px) {
-    .hide-on-mobile {
-      display: block;
-    }
-  }
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
