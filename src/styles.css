@@ -147,14 +147,14 @@ header a {
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  color: #272044;
+  color: white;
   padding: 16px 32px;
   margin-top: 32px;
   display: inline-block;
   letter-spacing: 3px;
   text-transform: uppercase;
   text-decoration: none;
-  background: white;
+  background: black;
   border-radius: 4px;
 }
 main {
