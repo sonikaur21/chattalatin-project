@@ -257,6 +257,15 @@ footer .grid div {
   margin-top: 30px;
   color: #272044;
 }
+.hide-on-mobile {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .hide-on-mobile {
+    display: block;
+  }
+}
 @media (max-width: 900px) {
   header {
     padding: 60px 0;
@@ -271,6 +280,15 @@ footer .grid div {
   }
   header h3 {
     font-size: 12px;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+
+  @media (min-width: 992px) {
+    .hide-on-mobile {
+      display: block;
+    }
   }
   .grid {
     grid-template-columns: 1fr;
