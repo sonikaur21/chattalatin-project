@@ -238,6 +238,9 @@ footer a {
 footer .grid div {
   text-align: left;
 }
+.fa-regular {
+  text-decoration: underline;
+}
 .love {
   margin-bottom: 40px;
 }
