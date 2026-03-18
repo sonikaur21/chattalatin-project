@@ -60,6 +60,10 @@ nav li.active a {
   width: 100%;
   display: block;
 }
+video {
+  display: grid;
+  justify-items: center;
+}
 .grid img {
   width: 100%;
   max-width: 450px; /* don’t let them stretch too much */
