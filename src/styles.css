@@ -60,9 +60,13 @@ nav li.active a {
   width: 100%;
   display: block;
 }
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+}
 video {
-  display: grid;
-  justify-items: center;
+  max-width: 100%;
+  height: auto;
 }
 .grid img {
   width: 100%;
